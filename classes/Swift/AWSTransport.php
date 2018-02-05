@@ -16,11 +16,11 @@
 	class Swift_AWSTransport extends Swift_Transport_AWSTransport {
 
 		/** the service access key */
-		private $AWSAccessKeyId;
+		public $AWSAccessKeyId;
 		/** the service secret key */
-		private $AWSSecretKey;
+        public $AWSSecretKey;
 		/** the service endpoint */
-		private $endpoint;
+        public $endpoint;
 		/**
 		 * Debugging helper.
 		 *
